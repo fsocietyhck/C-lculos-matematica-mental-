@@ -1,0 +1,23 @@
+CÁLCULOS — MATEMÁTICA MENTAL
+
+Arquivos:
+- index.html: jogo completo (HTML, CSS e JavaScript).
+- manifest.webmanifest: configura o nome e a instalação como app.
+- sw.js: cache offline.
+- icon.svg: ícone.
+
+COMO TESTAR
+1. Extraia a pasta.
+2. Abra index.html no navegador para testar a interface (alguns recursos PWA só funcionam em HTTPS ou localhost).
+
+COMO INSTALAR NA TELA INICIAL DO ANDROID
+O navegador exige HTTPS ou localhost para instalar um PWA.
+1. Publique os arquivos da pasta em uma hospedagem estática HTTPS (por exemplo, GitHub Pages).
+2. Abra o endereço publicado no Chrome do Android.
+3. Menu ⋮ > Instalar app ou Adicionar à tela inicial.
+
+DADOS
+Nickname, recordes e progresso são guardados no localStorage do navegador/aparelho. Limpar os dados do navegador pode apagar esses dados. Não há conta nem sincronização entre aparelhos.
+
+SOBRE O NÍVEL DIFÍCIL
+As sete questões do Milênio são problemas em aberto, não exercícios com respostas numéricas conhecidas. O jogo inclui problemas originais de raciocínio e interpretação; não afirma resolver os problemas do Milênio.
